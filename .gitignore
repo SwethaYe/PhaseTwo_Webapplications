@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CoreCodeFirstApproachApplication/bin/Debug/net5.0
+/CoreCodeFirstApproachApplication/obj
+/CoreSessionManagement/bin/Debug/net5.0

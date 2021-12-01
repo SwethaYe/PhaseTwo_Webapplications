@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace CoreCodeFirstApproachApplication.Models
+{
+    public class Company
+    {
+        public int CompanyId { get; set; }
+        public string Name { get; set; }
+        public string Location { get; set; }
+        public ICollection<Employee> Employees { get; set; }
+
+    }
+}
